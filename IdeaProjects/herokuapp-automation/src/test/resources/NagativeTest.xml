@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="NegativeLoginTest" verbose="1" >
+<parameter name = "username" value = "fatema123"/>
+<parameter name = "password" value="123456"/>
+<parameter name = "expectedMessege" value= "Your username is invalid!" />
+    
+    <test name="NegativeLoginTests">
+        <classes>
+            <class name="com.herokuapp.theinternet.base.Base"/>
+            <class name="com.herokuapp.theinternet.loginpagetests.NegativeLoginTests"></class>
+            
+        </classes>
+    </test>
+</suite>

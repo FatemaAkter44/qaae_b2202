@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [PositiveLogInTestSuite]" guice-stage="DEVELOPMENT" verbose="0">
+  <parameter name="browser" value="chrome"/>
+  <parameter name="osName" value="mac"/>
+  <test thread-count="5" name="PositiveLogInTests(failed)" verbose="0">
+    <classes>
+      <class name="com.herokuapp.theinternet.loginpagetests.NegativeLoginTests">
+        <methods>
+          <include name="negativeLogInTest"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.herokuapp.theinternet.loginpagetests.NegativeLoginTests -->
+    </classes>
+  </test> <!-- PositiveLogInTests(failed) -->
+</suite> <!-- Failed suite [PositiveLogInTestSuite] -->

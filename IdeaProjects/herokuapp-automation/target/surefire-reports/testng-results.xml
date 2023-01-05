@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-12-15T01:02:10Z" name="PositiveLogInTestSuite" finished-at="2022-12-15T01:02:24Z" duration-ms="13934">
+    <groups>
+    </groups>
+    <test started-at="2022-12-15T01:02:10Z" name="PositiveLogInTests" finished-at="2022-12-15T01:02:24Z" duration-ms="13934">
+      <class name="com.herokuapp.theinternet.loginpagetests.PositiveLogInTests">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:com.herokuapp.theinternet.loginpagetests.PositiveLogInTests@5123a213]" started-at="2022-12-15T01:02:10Z" name="setUp" finished-at="2022-12-15T01:02:11Z" duration-ms="1730" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mac]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="checkBoxTest()[pri:0, instance:com.herokuapp.theinternet.loginpagetests.PositiveLogInTests@5123a213]" started-at="2022-12-15T01:02:11Z" name="checkBoxTest" finished-at="2022-12-15T01:02:21Z" duration-ms="9613" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkBoxTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.herokuapp.theinternet.loginpagetests.PositiveLogInTests@5123a213]" started-at="2022-12-15T01:02:21Z" name="tearDown" finished-at="2022-12-15T01:02:21Z" duration-ms="91" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:com.herokuapp.theinternet.loginpagetests.PositiveLogInTests@5123a213]" started-at="2022-12-15T01:02:21Z" name="setUp" finished-at="2022-12-15T01:02:23Z" duration-ms="1510" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mac]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="logInTest()[pri:0, instance:com.herokuapp.theinternet.loginpagetests.PositiveLogInTests@5123a213]" started-at="2022-12-15T01:02:23Z" name="logInTest" finished-at="2022-12-15T01:02:24Z" duration-ms="887" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.herokuapp.theinternet.loginpagetests.PositiveLogInTests@5123a213]" started-at="2022-12-15T01:02:24Z" name="tearDown" finished-at="2022-12-15T01:02:24Z" duration-ms="86" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.herokuapp.theinternet.loginpagetests.PositiveLogInTests -->
+      <class name="com.herokuapp.theinternet.loginpagetests.NegativeLoginTests">
+        <test-method signature="negativeLogInTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.herokuapp.theinternet.loginpagetests.NegativeLoginTests@52525845]" started-at="2022-12-15T01:02:24Z" name="negativeLogInTest" finished-at="2022-12-15T01:02:24Z" duration-ms="0" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'username' is required by @Test on method negativeLogInTest but has not been marked @Optional or defined
+in /Users/fatemaakter/IdeaProjects/herokuapp-automation/src/test/resources/PositiveTests.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'username' is required by @Test on method negativeLogInTest but has not been marked @Optional or defined
+in /Users/fatemaakter/IdeaProjects/herokuapp-automation/src/test/resources/PositiveTests.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:290)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)
+at org.testng.internal.Parameters.createParameters(Parameters.java:620)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:769)
+at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:49)
+at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:37)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:924)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativeLogInTest -->
+      </class> <!-- com.herokuapp.theinternet.loginpagetests.NegativeLoginTests -->
+    </test> <!-- PositiveLogInTests -->
+  </suite> <!-- PositiveLogInTestSuite -->
+</testng-results>

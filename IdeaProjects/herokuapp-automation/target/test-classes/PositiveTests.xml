@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="PositiveLogInTestSuite" verbose="1">
+    <parameter name="browser" value="chrome">browser</parameter>
+    <parameter name="osName" value="mac">osName</parameter>
+
+    <test name="PositiveLogInTests"> <!-- we are saying where is our test class  -->
+        <classes>
+            <class name="com.herokuapp.theinternet.loginpagetests.PositiveLogInTests" />
+            <class name="com.herokuapp.theinternet.loginpagetests.NegativeLoginTests"></class>
+            <class name="com.herokuapp.theinternet.loginpagetests.DragAndDropTest"></class>
+            <class name="com.herokuapp.theinternet.loginpagetests.DragAndDropTest"></class>
+            <class name="com.herokuapp.theinternet.loginpagetests.Dropdown"></class>
+        </classes>
+    </test>
+
+</suite>

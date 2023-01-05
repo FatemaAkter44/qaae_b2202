@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="14.201" tests="3" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.specification.version" value="19"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/fatemaakter/IdeaProjects/herokuapp-automation/target/test-classes:/Users/fatemaakter/IdeaProjects/herokuapp-automation/target/classes:/Users/fatemaakter/.m2/repository/org/testng/testng/6.14.3/testng-6.14.3.jar:/Users/fatemaakter/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/fatemaakter/.m2/repository/org/apache-extras/beanshell/bsh/2.0b6/bsh-2.0b6.jar:/Users/fatemaakter/.m2/repository/org/seleniumhq/selenium/selenium-java/3.14.0/selenium-java-3.14.0.jar:/Users/fatemaakter/.m2/repository/org/seleniumhq/selenium/selenium-api/3.14.0/selenium-api-3.14.0.jar:/Users/fatemaakter/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.14.0/selenium-chrome-driver-3.14.0.jar:/Users/fatemaakter/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.14.0/selenium-edge-driver-3.14.0.jar:/Users/fatemaakter/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.14.0/selenium-firefox-driver-3.14.0.jar:/Users/fatemaakter/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.14.0/selenium-ie-driver-3.14.0.jar:/Users/fatemaakter/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.14.0/selenium-opera-driver-3.14.0.jar:/Users/fatemaakter/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.14.0/selenium-remote-driver-3.14.0.jar:/Users/fatemaakter/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.14.0/selenium-safari-driver-3.14.0.jar:/Users/fatemaakter/.m2/repository/org/seleniumhq/selenium/selenium-support/3.14.0/selenium-support-3.14.0.jar:/Users/fatemaakter/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/fatemaakter/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/fatemaakter/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/Users/fatemaakter/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/fatemaakter/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/fatemaakter/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/fatemaakter/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/fatemaakter/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/fatemaakter/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/fatemaakter/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/fatemaakter/.m2/repository/org/apache/httpcomponents/httpclient/4.5.5/httpclient-4.5.5.jar:/Users/fatemaakter/.m2/repository/org/apache/httpcomponents/httpcore/4.4.9/httpcore-4.4.9.jar:/Users/fatemaakter/.m2/repository/com/squareup/okhttp3/okhttp/3.10.0/okhttp-3.10.0.jar:/Users/fatemaakter/.m2/repository/com/squareup/okio/okio/1.14.1/okio-1.14.1.jar:/Users/fatemaakter/.m2/repository/org/apache/maven/surefire/surefire-testng-utils/2.22.0/surefire-testng-utils-2.22.0.jar:/Users/fatemaakter/.m2/repository/org/apache/maven/surefire/surefire-grouper/2.22.0/surefire-grouper-2.22.0.jar:"/>
+    <property name="java.vm.vendor" value="Homebrew"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="19"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="/usr/local/Cellar/openjdk/19.0.1/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/fatemaakter/IdeaProjects/herokuapp-automation/target/surefire/surefirebooter4197106596682586949.jar /Users/fatemaakter/IdeaProjects/herokuapp-automation/target/surefire 2022-12-14T20-02-08_722-jvmRun1 surefire13456855991670919999tmp surefire_0710513799993230601tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/fatemaakter/IdeaProjects/herokuapp-automation/target/test-classes:/Users/fatemaakter/IdeaProjects/herokuapp-automation/target/classes:/Users/fatemaakter/.m2/repository/org/testng/testng/6.14.3/testng-6.14.3.jar:/Users/fatemaakter/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/fatemaakter/.m2/repository/org/apache-extras/beanshell/bsh/2.0b6/bsh-2.0b6.jar:/Users/fatemaakter/.m2/repository/org/seleniumhq/selenium/selenium-java/3.14.0/selenium-java-3.14.0.jar:/Users/fatemaakter/.m2/repository/org/seleniumhq/selenium/selenium-api/3.14.0/selenium-api-3.14.0.jar:/Users/fatemaakter/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.14.0/selenium-chrome-driver-3.14.0.jar:/Users/fatemaakter/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.14.0/selenium-edge-driver-3.14.0.jar:/Users/fatemaakter/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.14.0/selenium-firefox-driver-3.14.0.jar:/Users/fatemaakter/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.14.0/selenium-ie-driver-3.14.0.jar:/Users/fatemaakter/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.14.0/selenium-opera-driver-3.14.0.jar:/Users/fatemaakter/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.14.0/selenium-remote-driver-3.14.0.jar:/Users/fatemaakter/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.14.0/selenium-safari-driver-3.14.0.jar:/Users/fatemaakter/.m2/repository/org/seleniumhq/selenium/selenium-support/3.14.0/selenium-support-3.14.0.jar:/Users/fatemaakter/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/fatemaakter/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/fatemaakter/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/Users/fatemaakter/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/fatemaakter/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/fatemaakter/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/fatemaakter/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/fatemaakter/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/fatemaakter/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/fatemaakter/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/fatemaakter/.m2/repository/org/apache/httpcomponents/httpclient/4.5.5/httpclient-4.5.5.jar:/Users/fatemaakter/.m2/repository/org/apache/httpcomponents/httpcore/4.4.9/httpcore-4.4.9.jar:/Users/fatemaakter/.m2/repository/com/squareup/okhttp3/okhttp/3.10.0/okhttp-3.10.0.jar:/Users/fatemaakter/.m2/repository/com/squareup/okio/okio/1.14.1/okio-1.14.1.jar:/Users/fatemaakter/.m2/repository/org/apache/maven/surefire/surefire-testng-utils/2.22.0/surefire-testng-utils-2.22.0.jar:/Users/fatemaakter/.m2/repository/org/apache/maven/surefire/surefire-grouper/2.22.0/surefire-grouper-2.22.0.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/fatemaakter"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-10-18"/>
+    <property name="java.home" value="/usr/local/Cellar/openjdk/19.0.1/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/fatemaakter/IdeaProjects/herokuapp-automation"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/fatemaakter/IdeaProjects/herokuapp-automation/target/surefire/surefirebooter4197106596682586949.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="19.0.1"/>
+    <property name="user.name" value="fatemaakter"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="12.5.1"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Homebrew"/>
+    <property name="localRepository" value="/Users/fatemaakter/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/xt/bg6y1g2d60b8bf0h6v8k6y_m0000gn/T/"/>
+    <property name="java.version" value="19.0.1"/>
+    <property name="user.dir" value="/Users/fatemaakter/IdeaProjects/herokuapp-automation"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/fatemaakter/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Homebrew"/>
+    <property name="java.vm.version" value="19.0.1"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="63.0"/>
+  </properties>
+  <testcase name="checkBoxTest" classname="com.herokuapp.theinternet.loginpagetests.PositiveLogInTests" time="9.613"/>
+  <testcase name="logInTest" classname="com.herokuapp.theinternet.loginpagetests.PositiveLogInTests" time="0.887"/>
+  <testcase name="negativeLogInTest" classname="com.herokuapp.theinternet.loginpagetests.NegativeLoginTests" time="0.982">
+    <failure message="&#10;Parameter &apos;username&apos; is required by @Test on method negativeLogInTest but has not been marked @Optional or defined&#10;in /Users/fatemaakter/IdeaProjects/herokuapp-automation/src/test/resources/PositiveTests.xml" type="org.testng.TestNGException">org.testng.TestNGException: 
+
+Parameter 'username' is required by @Test on method negativeLogInTest but has not been marked @Optional or defined
+in /Users/fatemaakter/IdeaProjects/herokuapp-automation/src/test/resources/PositiveTests.xml
+</failure>
+    <system-out><![CDATA[Close driver
+]]></system-out>
+    <system-err><![CDATA[[Utils] [ERROR] [Error] org.testng.TestNGException: 
+Parameter &apos;username&apos; is required by @Test on method negativeLogInTest but has not been marked @Optional or defined
+in /Users/fatemaakter/IdeaProjects/herokuapp-automation/src/test/resources/PositiveTests.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:290)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:620)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:769)
+	at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:49)
+	at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:37)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:924)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
+
+]]></system-err>
+  </testcase>
+</testsuite>
